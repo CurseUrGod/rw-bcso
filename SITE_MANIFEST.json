@@ -1,0 +1,13 @@
+{
+  "version": "V3",
+  "entry": "index.html",
+  "files": [
+    ".nojekyll",
+    "404.html",
+    "README.md",
+    "app.js",
+    "assets/bcso-patch.webp",
+    "index.html",
+    "styles.css"
+  ]
+}

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#090c10">
+<meta name="description" content="Red Willow RP — Blaine County Sheriff's Office SOP and Operations Portal">
+<title>Red Willow BCSO | Command Portal</title>
+<link rel="icon" href="assets/bcso-patch.webp" type="image/webp">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app-shell">
+<header class="topbar">
+  <a class="brand" href="#home" aria-label="Red Willow BCSO Command Portal">
+    <img src="assets/bcso-patch.webp" alt="Blaine County Sheriff's Office patch">
+    <span><b>RED WILLOW RP</b><strong>BLAINE COUNTY SHERIFF'S OFFICE</strong><small>COMMAND & SOP PORTAL</small></span>
+  </a>
+  <div class="top-actions">
+    <button id="searchBtn" class="toolbar-btn" type="button">⌕ <span>SEARCH</span></button>
+    <button id="menuBtn" class="toolbar-btn mobile-only" type="button" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<aside id="sidebar">
+  <div class="side-label">BCSO COMMAND PORTAL</div>
+  <a href="#home" data-route="home">⌂ <span>Command Center</span></a>
+  <div class="side-heading">OPERATIONS</div>
+  <a href="#quick-reaction" data-route="quick-reaction">⚡ <span>Quick Reaction Handbook</span></a>
+  <a href="#patrol" data-route="patrol">✦ <span>Patrol Operations</span></a>
+  <a href="#communications" data-route="communications">◉ <span>Communications & Radio</span></a>
+  <a href="#traffic" data-route="traffic">▣ <span>Traffic & Pursuits</span></a>
+  <a href="#arrest" data-route="arrest">⛓ <span>Arrest & Booking</span></a>
+  <a href="#impounding" data-route="impounding">▰ <span>Impounding</span></a>
+  <div class="side-heading">POLICY</div>
+  <a href="#conduct" data-route="conduct">◆ <span>Code of Conduct</span></a>
+  <a href="#force" data-route="force">⬟ <span>Use of Force & Firearms</span></a>
+  <a href="#uniform" data-route="uniform">◈ <span>Uniform & Equipment</span></a>
+  <a href="#discipline" data-route="discipline">⚖ <span>Discipline & Infractions</span></a>
+  <a href="#activity" data-route="activity">◷ <span>Activity & Leave</span></a>
+  <a href="#off-duty" data-route="off-duty">○ <span>Off-Duty Guidelines</span></a>
+  <div class="side-heading">DEPARTMENT</div>
+  <a href="#structure" data-route="structure">♜ <span>Department Structure</span></a>
+  <a href="#certifications" data-route="certifications">★ <span>Special Certifications</span></a>
+  <a href="#vehicles" data-route="vehicles">▤ <span>Police Vehicles</span></a>
+  <a href="#training" data-route="training">🎓 <span>Academy & FTO</span></a>
+  <a href="#cid" data-route="cid">⌕ <span>CID</span></a>
+  <a href="#swat" data-route="swat">✚ <span>SWAT</span></a>
+  <a href="#teu" data-route="teu">◇ <span>TEU / HEAT</span></a>
+  <a href="#air1" data-route="air1">✈ <span>Air-1</span></a>
+  <div class="side-heading">RESOURCES</div>
+  <a href="#commands" data-route="commands">⌘ <span>Common Commands</span></a>
+  <a href="#radio" data-route="radio">◉ <span>Radio / 10-Codes</span></a>
+  <a href="#penal-code" data-route="penal-code">§ <span>Penal Code</span></a>
+  <a href="#documents" data-route="documents">▤ <span>Forms & Documents</span></a>
+  <a href="#announcements" data-route="announcements">⚑ <span>Announcements</span></a>
+</aside>
+
+<main id="main"></main>
+<footer>
+  <div><b>RED WILLOW ROLE PLAY</b><span>BLAINE COUNTY SHERIFF'S OFFICE</span></div>
+  <div><span>COMMAND & SOP PORTAL • V3</span><span>Static GitHub Pages Edition</span></div>
+</footer>
+</div>
+
+<div id="searchModal" class="modal hidden" aria-hidden="true">
+  <div class="modal-card">
+    <button id="closeSearch" class="close" type="button">×</button>
+    <div class="eyebrow">PORTAL SEARCH</div>
+    <h2>Find a policy, unit, or reference</h2>
+    <input id="searchInput" type="search" placeholder="Search policies, divisions, commands...">
+    <div id="searchResults" class="search-results"></div>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
