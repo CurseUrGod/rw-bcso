@@ -1,0 +1,15 @@
+{
+  "site_name": "Red Willow RP \u2014 BCSO Department Portal",
+  "home": "index.html",
+  "master_sop_chapters": 25,
+  "references": [
+    "Penal Code",
+    "Radio / 10-Codes",
+    "Division & Certification Directory",
+    "CID SOP",
+    "Forms & Templates"
+  ],
+  "version": "6.0",
+  "external_source_links": 0,
+  "public_entry": "index.html"
+}
