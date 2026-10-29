@@ -1,0 +1,38 @@
+{
+  "site_name": "Red Willow RP \u2014 BCSO Department Portal",
+  "home": "index.html",
+  "master_sop_chapters": 26,
+  "references": [
+    "Penal Code",
+    "Radio / 10-Codes",
+    "Division & Certification Directory",
+    "CID SOP",
+    "TEU / HEAT and BIKE Certification SOP",
+    "Forms & Templates"
+  ],
+  "division_logos": [
+    "BCSO",
+    "CID",
+    "SWAT",
+    "TEU / HEAT",
+    "Air-1"
+  ],
+  "version": "9.0",
+  "external_source_links": 0,
+  "public_entry": "index.html",
+  "chapters": 26,
+  "notes": "Uses the exact uploaded transparent PNG patches for CID, SWAT, TEU / HEAT, and Air-1. BIKE is documented within TEU / HEAT.",
+  "division_logo_assets": {
+    "CID": "assets/divisions/bcso-cid.png",
+    "SWAT": "assets/divisions/bcso-swat.png",
+    "TEU / HEAT": "assets/divisions/bcso-teu.png",
+    "Air-1": "assets/divisions/bcso-air1.png"
+  },
+  "site": "Red Willow RP \u2014 Blaine County Sheriff\u2019s Office",
+  "change_summary": [
+    "Removed standalone application builder; BCSO Discord Appy handles division/certification requests.",
+    "Removed standalone BIKE route and merged motorcycle certification under TEU / HEAT.",
+    "Redesigned Chapter 26 as a professional Office of the Sheriff closing chapter.",
+    "Updated SOP intake wording to the BCSO Discord Appy workflow."
+  ]
+}
