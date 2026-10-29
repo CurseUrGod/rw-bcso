@@ -1,8 +1,0 @@
-# V8 Content & Presentation Notes
-
-- Added the supplied Traffic Enforcement Unit SOP to the dedicated TEU / HEAT page. Source details preserved include Under Sheriff Tyson Rios as Unit Lead, Elliot Salem as BCSO Department Lead, supervisor recommendation, Deputy 2 passenger rank, disciplinary-history eligibility, driver expectations, two-active-patrol-vehicle deployment threshold, single HEAT/Bike on-scene limit, statewide response, no civilian transport while operating as TEU, the supplied list of qualifying scenarios, and the disciplinary/certification consequence.
-- The source document’s “Service Uniform — TBD” placeholder is not displayed; the page directs members to the department-wide Uniforms & Equipment policy instead. The source’s “Officer 2 or Deputy 2” rank reference is normalized to “Deputy 2” to match the sheriff-themed rank convention already specified for this portal.
-- Integrated the exact original user-supplied transparent PNG files for CID, SWAT, TEU / HEAT, and Air-1 into the home page’s division cards, the division directory, and their dedicated pages. These are the supplied assets (not generated or web-sourced substitutes). BIKE uses the main BCSO patch because no separate BIKE logo was supplied.
-- TEU content presentation uses a division hero, leadership cards, separate Passenger and Driver requirement cards, deployment-rule cards, a scenario grid, compliance callout, and internal related-policy shortcuts.
-- Existing 26-chapter Master SOP, Chapter 26 closing statement, local penal code/radio reference, V7 aligned vehicle tables, and no-external-source-link objective are retained.
-- JavaScript wording and layout were changed; no additional external resources were introduced.
