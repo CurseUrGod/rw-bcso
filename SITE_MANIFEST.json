@@ -1,0 +1,31 @@
+{
+  "site_name": "Red Willow RP — BCSO Department Portal",
+  "home": "index.html",
+  "master_sop_chapters": 26,
+  "references": [
+    "Penal Code",
+    "Radio / 10-Codes",
+    "Division & Certification Directory",
+    "CID SOP",
+    "TEU / HEAT Unit SOP",
+    "Forms & Templates"
+  ],
+  "division_logos": [
+    "BCSO",
+    "CID",
+    "SWAT",
+    "TEU / HEAT",
+    "Air-1"
+  ],
+  "version": "8.0",
+  "external_source_links": 0,
+  "public_entry": "index.html",
+  "chapters": 26,
+  "notes": "Uses the exact uploaded transparent PNG patches for CID, SWAT, TEU / HEAT, and Air-1.",
+  "division_logo_assets": {
+    "CID": "assets/divisions/bcso-cid.png",
+    "SWAT": "assets/divisions/bcso-swat.png",
+    "TEU / HEAT": "assets/divisions/bcso-teu.png",
+    "Air-1": "assets/divisions/bcso-air1.png"
+  }
+}
